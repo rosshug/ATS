@@ -38,33 +38,33 @@ Contents
 
 ## Columns dropped
 
-- IsNaturalFeature
-- IsVelocityBarrier
-- IsBridge
-- Diameter_mm_new
-- IsAquaticHabitat
 - Exclude
-- IsMaintenanceRequired
-- Length_Of_Culvert_M_new
-- Culvert_Height_mm_new
-- IsPerched
-- NoStructure
-- IsDryCulvert
-- IsJumpingSpecies
-- IsPhysicalBarrier
-- IsFishPassProvided
+- Diameter_mm_new
 - notnull_cols
-- Thickness_mm_new
-- IsBarrier
-- RequiresFurtherInvestigation
+- IsBridge
+- IsPhysicalBarrier
+- NoStructure
+- IsFishPassProvided
+- IsAquaticHabitat
 - Culvert_Width_mm_new
+- IsVelocityBarrier
+- IsJumpingSpecies
+- RequiresFurtherInvestigation
+- Culvert_Height_mm_new
+- Thickness_mm_new
+- Length_Of_Culvert_M_new
+- IsNaturalFeature
+- IsPerched
+- IsMaintenanceRequired
+- IsBarrier
+- IsDryCulvert
 
 ## Columns added
 
+- Tidal_old
 - Diameter_mm_old
 - Length_Of_Culvert_M_old
 - Culvert_Width_mm_old
-- Tidal_old
 
 # Rows
 
@@ -96,6 +96,7 @@ Contents
 
 ## Latitude
   
+Datatypes: old=float64, new=float64  
 Values not within specified tolerance 0.00000010  
 
 |index|old Latitude|new Latitude|
@@ -104,6 +105,7 @@ Values not within specified tolerance 0.00000010
 
 ## Longitude
   
+Datatypes: old=float64, new=float64  
 Values not within specified tolerance 0.00000010  
 
 |index|old Longitude|new Longitude|
@@ -112,6 +114,7 @@ Values not within specified tolerance 0.00000010
 
 ## Altitude
   
+Datatypes: old=float64, new=float64  
 Values not within specified tolerance 0.00000010  
 
 |index|old Altitude|new Altitude|
@@ -119,6 +122,8 @@ Values not within specified tolerance 0.00000010
 |292|nan|nan|
 
 ## Accuracy_X10m:
+  
+Datatypes: old=float64, new=float64  
 
 |index|old Accuracy_X10m|new Accuracy_X10m|
 | :---: | :---: | :---: |
@@ -126,6 +131,8 @@ Values not within specified tolerance 0.00000010
 |292|nan|nan|
 
 ## Diameter_mm:
+  
+Datatypes: old=object, new=float64  
 
 |index|old Diameter_mm|new Diameter_mm|
 | :---: | :---: | :---: |
@@ -234,6 +241,8 @@ Values not within specified tolerance 0.00000010
 |3164|200.0|200.0|
 
 ## Culvert_Width_mm:
+  
+Datatypes: old=object, new=float64  
 
 |index|old Culvert_Width_mm|new Culvert_Width_mm|
 | :---: | :---: | :---: |
@@ -263,6 +272,8 @@ Values not within specified tolerance 0.00000010
 |1496|1500|1500.0|
 
 ## Length_Of_Culvert_M:
+  
+Datatypes: old=object, new=float64  
 
 |index|old Length_Of_Culvert_M|new Length_Of_Culvert_M|
 | :---: | :---: | :---: |
@@ -423,6 +434,8 @@ Values not within specified tolerance 0.00000010
 |1524|35.0|35.0|
 
 ## Tidal:
+  
+Datatypes: old=object, new=object  
 
 |index|old Tidal|new Tidal|
 | :---: | :---: | :---: |
@@ -432,6 +445,8 @@ Values not within specified tolerance 0.00000010
 |1329|yes|Yes|
 
 ## POINT_X:
+  
+Datatypes: old=float64, new=float64  
 
 |index|old POINT_X|new POINT_X|
 | :---: | :---: | :---: |
@@ -445,6 +460,8 @@ Values not within specified tolerance 0.00000010
 |783|1927641.6709999999|1927641.671|
 
 ## POINT_Y:
+  
+Datatypes: old=float64, new=float64  
 
 |index|old POINT_Y|new POINT_Y|
 | :---: | :---: | :---: |
@@ -457,6 +474,8 @@ Values not within specified tolerance 0.00000010
 |750|5725284.302999999|5725284.302999998|
 
 ## Unnamed: 41:
+  
+Datatypes: old=float64, new=float64  
 
 |index|old Unnamed: 41|new Unnamed: 41|
 | :---: | :---: | :---: |
@@ -464,6 +483,8 @@ Values not within specified tolerance 0.00000010
 |1150|-0.00011574072414077817|-0.00011574072414077814|
 
 ## Displayed_Latitude:
+  
+Datatypes: old=float64, new=float64  
 
 |index|old Displayed_Latitude|new Displayed_Latitude|
 | :---: | :---: | :---: |
@@ -471,6 +492,8 @@ Values not within specified tolerance 0.00000010
 |3150|-37.502|-37.501999999999995|
 
 ## Displayed_Longitude:
+  
+Datatypes: old=float64, new=float64  
 
 |index|old Displayed_Longitude|new Displayed_Longitude|
 | :---: | :---: | :---: |
