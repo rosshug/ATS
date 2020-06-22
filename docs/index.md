@@ -8,4 +8,4 @@ Bokeh maps:
  - [Crossings and Status](https://rosshug.github.io/ATS/crossings_status.html)
  
 Documents:
- - [Google Earth How-to](<https://rosshug.github.io/ATS/Google Earth How-to Guide.md>)
+ - [Google Earth How-to](<Google Earth How-to Guide.md>)
