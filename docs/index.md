@@ -1,6 +1,6 @@
 # Entrance page
 
-## Links to maps
+## Links
 
 Bokeh maps:
  - [Crossings (road/waterway intersections)](https://rosshug.github.io/ATS/crossings.html)
